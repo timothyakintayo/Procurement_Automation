@@ -26,14 +26,10 @@ This project is a Purchase Request & Approval System built with Microsoft's Powe
 
 ### What does this application have?
 The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
-### Live Demo & Screenshots
+### Live Demo
 In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
 - Demo Video [video]()
-- Screenhots
-  -
-  -
-  -
-  -
+
 ### Data Structure & Storage
 📂 SharePoint Lists (used as a database)
 - Purchase Requests (Stores all request details made from the purchase request app)
