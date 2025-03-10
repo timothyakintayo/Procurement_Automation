@@ -52,8 +52,8 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Cost Estimate        | Currency                            | The estimated total cost                                |
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
-#### 🔄 Workflow Automation
-- User (staff) submits their Purchase request by interacting with the [Purchase Request App] on (https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
+#### 🔄 Workflow Automation with PowerApp and Power Automaye
+- User logs in to the [Purchase Request App] on (https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcome with the homescreen ![]
 - Submitted request is sent and saved in SharePoint.
 - Power Automate trigger the approval workflow
