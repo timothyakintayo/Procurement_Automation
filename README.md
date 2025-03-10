@@ -86,8 +86,8 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
   - User Selection Challenge: Initially, requestor selection as drop down list did not work as it showed as items with no names. This was fixed using some formulas in the datacard of the combo box.
   - Email Visibility Issue: The group email received notifications initially but members were not getting individual emails. This was fixed by fetching all group members and sending individual emails via Power Automate.
   
-### Conclusions and Recommendations
-This project streamlined purchase request approvals by eliminating manual processes, reducing delays and ensuring accountability.
+### Conclusion
+This project streamlined purchase request approvals by eliminating manual processes, reducing delays, creating a cost-effective purchase request system and ensuring accountability.
 
 ### ✅ Impact & Benefits
 - Faster Approvals: Requests are processed in real-time using first-to-respond logic.
