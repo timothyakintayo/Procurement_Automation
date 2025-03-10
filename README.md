@@ -19,11 +19,64 @@ This project is a Purchase Request & Approval System built with Microsoft's Powe
 * Request for other Equipment.
 
 ### Tools Used:
-* PowerApps: This was used to customize the forms for the request submission
-* Sharepoint: This is the data storage for the request made in the organization
-* Power Automate: This was used to automate the approval workflows.
+* [PowerApp](https://make.powerapps.com/): This was used to customize the forms for the request submission
+* [Sharepoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration): This is the data storage for the request made in the organization
+* [Power Automate](https://make.powerautomate.com/): This was used to automate the approval workflows.
 * Office 365 Groups & Teams: This was used for communication and notification of requests.
 
-## What does this application have?
+### What does this application have?
 The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
+### Live Demo & Screenshots
+In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
+- Demo Video [video]()
+- Screenhots
+  -
+  -
+  -
+  -
+### Data Structure & Storage
+📂 SharePoint Lists (used as a database)
+- Purchase Requests (Stores all request details made from the purchase request app)
+- Approval Status (Tracks all approval progress from pending to approved)
+- Users List (Dynamic university of L'Aquila users selection from office 365)
+
+  ## Step by Step Procedure to Make this Application
+  1. Open share point online and login with your organization account/student account or Microsoft 365       
+     developer account.
+  2. Click the app launcher (9 dots in the left corner) and select sharepoint.
+  3. When you arrive at sharepoint → create → site → team site → team standard → use template → give it a name (e.g Process Automation)
+  4. After giving it a name, you will see the button new (up). Click on list → blank list and give it a name for instance Purchase Requests.
+  5. Create the following columns:
+    | **Column Name**      | **Data Type**                       | **Purpose**                                             |
+| -------------------- | ----------------------------------- | ------------------------------------------------------ |
+| Request Title        | Single line of text                 | A short title for the request (e.g. "New Laptops for Finance") |
+| Requestor Name       | Person                              | The person who made the request                         |
+| Item Description     | Multiple lines of text              | Details about the item being requested                  |
+| Quantity             | Number                              | How many items are needed                               |
+| Cost Estimate        | Currency                            | The estimated total cost                                |
+| Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request                       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
 
