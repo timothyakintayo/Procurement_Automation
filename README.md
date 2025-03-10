@@ -68,7 +68,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 #### 🔄 Workflow Automation with PowerApp and Power Automate
 - User logs in to the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
-- User submits 
+- User submits request for laptop![](laptop_request._form.png)
 - Submitted request is sent and saved in SharePoint.![](sharepoint_update.png)
 - Power Automate triggers the approval workflow, sending the request to a Microsoft 365 group (first responder approval system) ![](the_4_flows.PNG)
 - Approval/rejection is updated in sharepoint.![](sharepoint_update.png)
