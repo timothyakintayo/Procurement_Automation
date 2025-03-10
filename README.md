@@ -66,16 +66,16 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
 #### 🔄 Workflow Automation with PowerApp and Power Automate
-- User logs in to the [Purchase Request App] (https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
+- User logs in to the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
-- Submitted request is sent and saved in SharePoint.
-- Power Automate triggers the approval workflow, sending the request to a Microsoft 365 group (first responder approval system)
+- Submitted request is sent and saved in SharePoint.![](sharepoint_update.png)
+- Power Automate triggers the approval workflow, sending the request to a Microsoft 365 group (first responder approval system) ![](the_4_flows.PNG)
 - Approval/rejection is updated in sharepoint.
 - Email & Teams notifications sent to the requestor and the group.
 ### 🔑 Key Configurations
-🔹 Default Approval Status = "Pending"
-🔹 Approvals receive a request via Outlook and Teams
-🔹 Approval/Rejection is done based on First-to-Respond logic
+- Default Approval Status = "Pending"
+- Approvals receive a request via Outlook and Teams
+- Approval/Rejection is done based on First-to-Respond logic
 
 ### 🚀 Deployment and Usage
 - Publish PowerApps: Share the app with users in the organization.
@@ -89,21 +89,21 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 This project streamlined purchase request approvals by eliminating manual processes, reducing delays and ensuring accountability.
 
 ### ✅ Impact & Benefits
-🔹 Faster Approvals: Requests are processed in real-time using first-to-respond logic.
-🔹 Improved Transparency: Requestors track progress via Sharepoint updates.
-🔹 Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
+- Faster Approvals: Requests are processed in real-time using first-to-respond logic.
+- Improved Transparency: Requestors track progress via Sharepoint updates.
+- Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
- ### 🚀 Future Enhancement
+ ## 🚀 Future Enhancement
 📌 Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
 📌 Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
 📌 Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
 
 ### 📢 How to Use the System
-🔹 Step 1: Open PowerApps → Fill out the request form
-🔹 Step 2: Submit the request → It saves in SharePoint
-🔹 Step 3: Approval notification is sent via Teams & Email
-🔹 Step 4: Approver accepts/rejects → Status updates in SharePoint
-🔹 Step 5: Requestor receives confirmation
+- Step 1: Open PowerApps → Fill out the request form
+- Step 2: Submit the request → It saves in SharePoint
+- Step 3: Approval notification is sent via Teams & Email
+- Step 4: Approver accepts/rejects → Status updates in SharePoint
+- Step 5: Requestor receives confirmation
 
 
 
