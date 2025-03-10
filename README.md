@@ -49,7 +49,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Demo Video [video]()
 
 ### 💾 Data Structure & Storage
-📂 SharePoint Lists (used as a database)
+- 📂 SharePoint Lists (used as a database)
 - Purchase Requests (Stores all request details made from the purchase request app)
 - Approval Status (Tracks all approval progress from pending to approved)
 - Office 365 Users (Retrieves dynamic university of L'Aquila users data from office 365)
@@ -66,7 +66,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
 #### 🔄 Workflow Automation with PowerApp and Power Automate
-- User logs in to the [Purchase Request App] on (https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
+- User logs in to the [Purchase Request App] (https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
 - Submitted request is sent and saved in SharePoint.
 - Power Automate triggers the approval workflow, sending the request to a Microsoft 365 group (first responder approval system)
@@ -77,10 +77,6 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 🔹 Approvals receive a request via Outlook and Teams
 🔹 Approval/Rejection is done based on First-to-Respond logic
 
-
-Trigger: When an item is created in SharePoint
-Action: Route approval request to first responder (Power Automate) via Teams & Email
-Update: Store approval outcome in SharePoint & notify requestor
 ### 🚀 Deployment and Usage
 - Publish PowerApps: Share the app with users in the organization.
 - Grant Power Automate Access: Ensure the workflow has permissions to run
@@ -97,7 +93,7 @@ This project streamlined purchase request approvals by eliminating manual proces
 🔹 Improved Transparency: Requestors track progress via Sharepoint updates.
 🔹 Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
-🚀 Future Enhancement
+ ### 🚀 Future Enhancement
 📌 Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
 📌 Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
 📌 Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
