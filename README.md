@@ -1,16 +1,29 @@
 ## Power Platform Purchase Request & Approval System
-### Overview of the Project
-This project demonstrates how organizations who already use Microsoft 365 can leverage on it's Power Platform offering to save cost on their use of expensive Enterprise Resource Planning (ERP) Systems. Using the trio of Powerapp, Power Automate and Sharepoint this project demonstrates the use of Microsoft 365 in the development of a customizable, flexible and cost-effective ERP system. A Purchase Request App which allows staffs in can hypothetical company named XYZ to request for laptop, office supplies and other equipments using their mobile devices. This application is a end-end procurement automated app that sends the request data to sharepoint and then triggers Power Automate for the approval/rejection of the request. When linked with Power BI, a business intelligence and analytics tool, procurement trends in an organization such as monthly and yearly procurement trends, top-requested items to always make provision for them in advance, and approval vs rejection rate can be determined and analyzed easily.
+### 📌 Overview of the Project
+This project demonstrates how organizations who already use Microsoft 365 can leverage on it's Power Platform offering to save cost on their use of expensive **Enterprise Resource Planning (ERP) Systems**. Using  **Powerapp, Power Automate and Sharepoint**, this project demonstrates the use of **Microsoft 365** in the development of a customizable, flexible and cost-effective ERP system. A Purchase Request App which allows staffs in can hypothetical company named XYZ to request for laptop, office supplies and other equipments using their mobile devices. This application is a end-end procurement automated app that sends the request data to sharepoint and then triggers Power Automate for the approval/rejection of the request. When linked with **Power BI**, a business intelligence and analytics tool, procurement trends in an organization such as monthly and yearly procurement trends, top-requested items to always make provision for them in advance, and approval vs rejection rate can be determined and analyzed easily.
 ### Business Problem
-Traditional procurement systems like Organizations struggle with manual purchase 
-If your organization already uses Microsoft 365 then you can safe cost on SAP Ariba through the use of Power Platform functionality by designing workflows that provides the same functionality as SAP Ariba at a fraction of the cost with faster deployment and full control over the procurement workflow and can offer real-time procurement insights when linked with Power BI
-### Introduction
-This project is a Purchase Request & Approval System built with Microsoft's Power Platform. It is a low-cost no-code procurement system enabling organizations using Microsoft365 to seamlessly make procurements with the help of an end-to-end procurement automation with approvals & reporting. It enables users to submit purchase requests via the PowerApps which is available for tablet and phones. The application stores data in sharepoint and automates approvals using Power Automate, notifying staffs via emails and microsoft teams about requests in three categories which are:
+Many organizations struggle with manual purchase request approvals leading to inefficiencies, delays and lack of transparency. In worst cases, are subjected to the use of expensive **ERP** systems for their procurement and operations processes. If your organization already uses Microsoft 365 then you can safe cost on SAP Ariba through the use of Power Platform functionality by designing workflows that provides the same functionality as SAP Ariba at a fraction of the cost with faster deployment and full control over the procurement workflow and can offer real-time procurement insights when linked with Power BI. This project automates the Purchase Request and Approval process using **Powerapp, Power Automate, Office 365 and Sharepoint**, to ensure seamless approval and request processing, facilitating procurement process in any the hypothetical company named XYZ. 
+
+#### 🚨 Challenges faced by organizations using expensive ERP systems:
+* High cost (expensive licensing fees)
+* Limited customization
+#### ✅ Solution: PowerApps-based Procurement System:
+* Cost-effective and easy to deploy.
+* Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
+* Automates purchase requests and approvals.
+
+### Project Background
+This project is a Purchase Request & Approval System built with Microsoft's Power Platform. It is a low-cost no-code procurement system enabling organizations using Microsoft365 to seamlessly make procurements with the help of an end-to-end procurement automation for approvals and analytics of procurement operations. It enables users to submit purchase requests via the PowerApps which is available for tablet and phones, stores data in sharepoint and automates approvals using Power Automate, notifying staffs via emails and microsoft teams about requests in three categories which are:
 * Request for Laptop
 * Request for Office Supplies
-* Request for other Equipment
-In addition, the application consists of a home screen where these three sections can be navigated to, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
+* Request for other Equipment.
 
+### Tools Used:
+* PowerApps: This was used to customize the forms for the request submission
+* Sharepoint: This is the data storage for the request made in the organization
+* Power Automate: This was used to automate the approval workflows.
+* Office 365 Groups & Teams: This was used for communication and notification of requests.
 
-
+## What does this application have?
+The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
 
