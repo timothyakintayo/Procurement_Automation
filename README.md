@@ -40,22 +40,27 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Approval Status (Tracks all approval progress from pending to approved)
 - Users List (Dynamic university of L'Aquila users selection from office 365)
 
-  ## Step by Step Procedure to Make this Application
-  1. Open share point online and login with your organization account/student account or Microsoft 365       
-     developer account.
-  2. Click the app launcher (9 dots in the left corner) and select sharepoint.
-  3. When you arrive at sharepoint → create → site → team site → team standard → use template → give it a name (e.g Process Automation)
-  4. After giving it a name, you will see the button new (up). Click on list → blank list and give it a name for instance Purchase Requests.
-  5. Create the following columns:
-    | **Column Name**      | **Data Type**                       | **Purpose**                                             |
-| -------------------- | ----------------------------------- | ------------------------------------------------------ |
+  ### Key Columns Needed for the Automation
+
+|Column Name                      | Data Type                                   |Purpose                      |
+|  ------------------------------ | ------------------------------              | ------------------------------ |
 | Request Title        | Single line of text                 | A short title for the request (e.g. "New Laptops for Finance") |
 | Requestor Name       | Person                              | The person who made the request                         |
 | Item Description     | Multiple lines of text              | Details about the item being requested                  |
 | Quantity             | Number                              | How many items are needed                               |
 | Cost Estimate        | Currency                            | The estimated total cost                                |
-| Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request                       |
+| Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
+#### Workflow Automation
+- User (staff) submits their Purchase request by interacting with the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123)
+- User gets welcome with the homescreen ![]
+- Submitted request is sent and saved in SharePoint.
+- Power Automate trigger the approval workflow
+- 
+Go to [PowerApp](make.powerapp.com) and link your list and Office365 users in the organization to the 
+   PowerApp
+4. Create your home screen Request for Laptop screen, Request for Office Supplies screen, and Request for other Equipment screen. In your home screen, add 3 buttons to navigate to the three screens. Insert a form by importing your list created previously in sharepoint to each screens. Add home buttons, back button and submit request button to the three forms
+9. 
 
 
 
