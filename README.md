@@ -37,8 +37,8 @@ The system ensures the following:
 ### Skills Demonstrated
 In this project, i showcase my expertise in the following:
 - Power Apps; Designed three custom forms with dropdowns, combo boxes and conditional logic.![](page1_of_app.png)
-- Power Automate; Created approval workflows with dynamic email routing
-- Sharepoint: Developed a robust data source for request tracking using Sharepoint site and list.
+- Power Automate; Created approval workflows with dynamic email routing ![](approva_flow.png)
+- Sharepoint: Developed a robust data source for request tracking using Sharepoint site and list.![
 - Microsoft 365: Placed users in the organization into groups, to enable user permissions and notifications.
 - Troubleshooting & Debugging: Debugged errors in forms, email notifications and approval workflow.
 
