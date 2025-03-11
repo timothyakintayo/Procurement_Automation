@@ -1,10 +1,28 @@
 ## Power Platform Purchase Request & Approval System
 
 ## Table of Contents
+-[Overview of the Project](#overview-of-the-project)
+-[Business Problem](#business-problem)
+-[Challenges faced by organizations using expensive ERP systems:](#challenges-faced-by-organizations-using-expensive-erp-systems:)
+-[Solution: PowerApps-based Procurement System:](#solution:-powerapps-based-procurement-system:)
+-[Project Background](#project-background)
+-[Tools Used](#tools-used)
+-[Skills Demonstrated](#skills-demonstrated)
+-[What does this application have?](#what-does-this-application-have?)
+-[Video Demo](#video-demo)
+-[Data Structure & Storage](#data-structure-&-storage)
+-[Key Columns Used for the Automation](#key-columns-used-for-the-automation)
+-[Workflow Automation with PowerApp and Power Automate](#workflow-automation-with-powerapp-and-power-automate)
+-[Key Configurations](#key-configurations)
+-[Deployment and Usage](#deployment-and-usage)
+-[Analysis & Key Learnings](#analysis-&-key-learnings)
+-[Conclusion](#conclusion)
+-[Impact & Benefits](#impact-&-benefits)
+-[Future Enhancement](#future-enhancement)
+-[How to Use the System](#how-to-use-the-system)
 
 ### 📌 Overview of the Project
 This project demonstrates how organizations who already use Microsoft 365 can leverage on it's Power Platform offering to save cost on their use of expensive **Enterprise Resource Planning (ERP) Systems**. Using  **Powerapp, Power Automate and Sharepoint**, this project demonstrates the use of **Microsoft 365** in the development of a customizable, flexible and cost-effective ERP system. This project is a Purchase Request and Approval System built with Microsoft's Power Platform. It allows users to submit purchase requests via PowerApp, stores request dsata in sharepoint and automates approvals through Power Automate, notifying stakeholders via email and Microsoft Teams. It can be used on phone, tablet and computer. When linked with **Power BI**, a business intelligence and analytics tool, procurement trends in an organization such as monthly and yearly procurement trends, top-requested items to always make provision for them in advance, and approval vs rejection rate can be determined and analyzed easily.
-
 ![welcometotheapp](https://github.com/user-attachments/assets/603abcb6-5a60-45c4-928a-389e57b9f949)
 
 ### 💼 Business Problem
@@ -13,6 +31,7 @@ Many organizations struggle with manual purchase request approvals leading to in
 #### 🚨 Challenges faced by organizations using expensive ERP systems:
 * High cost (expensive licensing fees)
 * Limited customization
+
 #### ✅ Solution: PowerApps-based Procurement System:
 * Cost-effective and easy to deploy.
 * Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
@@ -44,7 +63,8 @@ In this project, i showcase my expertise in the following:
 
 ### 📝 What does this application have?
 The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
-### Live Demo
+
+### Video Demo
 In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
 - Demo Video [video]()
 
@@ -54,7 +74,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Approval Status (Tracks all approval progress from pending to approved)
 - Office 365 Users (Retrieves dynamic university of L'Aquila users data from office 365)
 
-  ### 📊 Key Columns Needed for the Automation
+  ### 📊 Key Columns Used for the Automation
 
 |Column Name                      | Data Type                                   |Purpose                      |
 |  ------------------------------ | ------------------------------              | ------------------------------ |
@@ -65,6 +85,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Cost Estimate        | Currency                            | The estimated total cost                                |
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
+
 #### 🔄 Workflow Automation with PowerApp and Power Automate
 - User logs in to the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
@@ -73,6 +94,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Power Automate triggers the approval workflow, sending the request to a Microsoft 365 group (first responder approval system) ![](the_4_flows.PNG)
 - Approval/rejection is updated in sharepoint.![](sharepoint_update.png)
 - Email & Teams notifications sent to the requestor and the group.![](rejection_notification_email.png)
+
 ### 🔑 Key Configurations
 - Default Approval Status = "Pending"
 - Approvals receive a request via Outlook and Teams
@@ -85,7 +107,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
   ### Analysis & Key Learnings
   - User Selection Challenge: Initially, requestor selection as drop down list did not work as it showed as items with no names. This was fixed using some formulas in the datacard of the combo box.
   - Email Visibility Issue: The group email received notifications initially but members were not getting individual emails. This was fixed by fetching all group members and sending individual emails via Power Automate.
-  
+
 ### Conclusion
 This project streamlined purchase request approvals by eliminating manual processes, reducing delays, creating a cost-effective purchase request system and ensuring accountability.
 
