@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Business Problem and Overview of the Project](#business-problem-and-overview-of-the-project)  
 - [Impact and Benefits](#impact-and-benefits)  
-- [PowerApps Based Procurement System as a Solution to these Challenges](#powerapps-based-procurement-system-as-a-solution-to-these-challenges)  
 - [About the Project](#about-the-project)  
 - [Tools Used](#tools-used)  
 - [Skills Demonstrated](#skills-demonstrated)  
@@ -25,13 +24,8 @@ Many organizations struggle with manual purchase requests, causing delays and in
 - Improved Transparency: Requestors track progress via Sharepoint updates.
 - Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
-#### PowerApps Based Procurement System as a Solution to these Challenges
-* Cost-effective and easy to deploy.
-* Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
-* Automates purchase requests and approvals.
-
 ### About the Project
-This project is a Purchase Request & Approval System built with Microsoft's Power Platform. It is a low-cost no-code procurement system enabling organizations using Microsoft365 to seamlessly make procurements with the help of an end-to-end procurement automation for approvals and analytics of procurement operations. It enables users to submit purchase requests via the PowerApps which is available for tablet and phones, stores data in sharepoint and automates approvals using Power Automate, notifying staffs via emails and microsoft teams about requests in three categories which are:
+This project is a Purchase Request & Approval System built with Microsoft's Power Platform. It is a low-cost low-code procurement system enabling organizations using Microsoft365 to seamlessly make procurements with the help of an end-to-end procurement automation for approvals and analytics of procurement operations. It enables users to submit purchase requests via the PowerApps which is available for tablet and phones, stores data in sharepoint and automates approvals using Power Automate, notifying staffs via emails and microsoft teams about requests in three categories which are:
 * Request for Laptop
 * Request for Office Supplies
 * Request for other Equipment.
