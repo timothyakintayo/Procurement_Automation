@@ -30,11 +30,11 @@ This project demonstrates how organizations who already use Microsoft 365 can le
 ### 💼 Business Problem
 Many organizations struggle with manual purchase request approvals leading to inefficiencies, delays and lack of transparency. In worst cases, are subjected to the use of expensive **ERP** systems for their procurement and operations processes. If your organization already uses Microsoft 365 then you can safe cost on SAP Ariba through the use of Power Platform functionality by designing workflows that provides the same functionality as SAP Ariba at a fraction of the cost with faster deployment and full control over the procurement workflow and can offer real-time procurement insights when linked with Power BI. This project automates the Purchase Request and Approval process using **Powerapp, Power Automate, Office 365 and Sharepoint**, to ensure seamless approval and request processing, facilitating procurement process in any the hypothetical company named XYZ. 
 
-#### 🚨 Challenges faced by organizations using expensive ERP systems:
+#### 🚨 Challenges Faced by Organizations Using Expensive ERP Systems
 * High cost (expensive licensing fees)
 * Limited customization
 
-#### ✅ Solution: PowerApps-based Procurement System:
+#### ✅ Solution - PowerApps-Based Procurement System
 * Cost-effective and easy to deploy.
 * Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
 * Automates purchase requests and approvals.
@@ -49,7 +49,7 @@ The system ensures the following:
 - Role-Based Access(Requestor, Approver, Admin).
 - Seamless Integration with Microsoft 365 ecosystem.
 
-### 🛠️ Tools Used:
+### 🛠️ Tools Used
 * [PowerApp](https://make.powerapps.com/): This was used to customize the forms for the request submission
 * [Sharepoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration): This is the data storage for the request made in the organization
 * [Power Automate](https://make.powerautomate.com/): This was used to automate the approval workflows.
@@ -63,7 +63,7 @@ In this project, i showcase my expertise in the following:
 - Microsoft 365: Placed users in the organization into groups, to enable user permissions and notifications.
 - Troubleshooting & Debugging: Debugged errors in forms, email notifications and approval workflow.
 
-### 📝 What does this application have?
+### 📝 What Does This Application Have?
 The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
 
 ### Video Demo
@@ -88,7 +88,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
 
-#### 🔄 Workflow Automation with PowerApp and Power Automate
+#### 🔄 Workflow Automation with PowerApps and Power Automate
 - User logs in to the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
 - User submits request for laptop![](laptop_request._form.png)
@@ -118,7 +118,7 @@ This project streamlined purchase request approvals by eliminating manual proces
 - Improved Transparency: Requestors track progress via Sharepoint updates.
 - Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
- ## 🚀 Future Enhancement
+ ## 🚀 Future Enhancements
 📌 Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
 📌 Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
 📌 Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
