@@ -1,26 +1,26 @@
 ## Power Platform Purchase Request & Approval System
 
 ## Table of Contents
-## Table of Contents
 1. [Overview of the Project](#overview-of-the-project)
 2. [Business Problem](#business-problem)
 3. [Challenges Faced by Organizations Using Expensive ERP Systems](#challenges-faced-by-organizations-using-expensive-erp-systems)
-4. [Solution - PowerApps-Based Procurement System](#solution---powerapps-based-procurement-system)
+4. [Solution - PowerApps Based Procurement System](#solution-powerapps-based-procurement-system)
 5. [Project Background](#project-background)
 6. [Tools Used](#tools-used)
 7. [Skills Demonstrated](#skills-demonstrated)
-8. [What Does This Application Have?](#what-does-this-application-have)
+8. [About the Purchase Request App](about-the-purchase-request-app)
 9. [Video Demo](#video-demo)
-10. [Data Structure & Storage](#data-structure--storage)
+10. [Data Structure and Storage](#data-structure-and-storage)
 11. [Key Columns Used for the Automation](#key-columns-used-for-the-automation)
 12. [Workflow Automation with PowerApps and Power Automate](#workflow-automation-with-powerapps-and-power-automate)
 13. [Key Configurations](#key-configurations)
 14. [Deployment and Usage](#deployment-and-usage)
-15. [Analysis & Key Learnings](#analysis--key-learnings)
+15. [Analysis and Key Learnings](#analysis-and-key-learnings)
 16. [Conclusion](#conclusion)
-17. [Impact & Benefits](#impact--benefits)
+17. [Impact and Benefits](#impact-and-benefits)
 18. [Future Enhancements](#future-enhancements)
 19. [How to Use the System](#how-to-use-the-system)
+
 
 
 ### 📌 Overview of the Project
@@ -34,7 +34,7 @@ Many organizations struggle with manual purchase request approvals leading to in
 * High cost (expensive licensing fees)
 * Limited customization
 
-#### ✅ Solution - PowerApps-Based Procurement System
+#### ✅ Solution - PowerApps Based Procurement System
 * Cost-effective and easy to deploy.
 * Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
 * Automates purchase requests and approvals.
@@ -63,7 +63,7 @@ In this project, i showcase my expertise in the following:
 - Microsoft 365: Placed users in the organization into groups, to enable user permissions and notifications.
 - Troubleshooting & Debugging: Debugged errors in forms, email notifications and approval workflow.
 
-### 📝 What Does This Application Have?
+### 📝 About the Purchase Request App
 The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
 
 ### Video Demo
@@ -88,7 +88,7 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 | Approval Status      | Choice (Pending, Approved, Rejected) | The current status of the request |
 
 
-#### 🔄 Workflow Automation with PowerApps and Power Automate
+### 🔄 Workflow Automation with PowerApps and Power Automate
 - User logs in to the [Purchase Request App](https://apps.powerapps.com/play/e/default-9df08a7c-31d7-4024-9ba6-5ed5efac1a01/a/115cfafe-6479-41bf-ad86-28ce3463cc45?tenantId=9df08a7c-31d7-4024-9ba6-5ed5efac1a01&hint=b4b94d79-bef1-417d-8daf-44bf2f27b0a5&source=sharebutton&sourcetime=1741626481123) on their phone 📱, tablet or laptop
 - User gets welcomed with the homescreen ![](welcometotheapp.png)
 - User submits request for laptop![](laptop_request._form.png)
@@ -106,19 +106,19 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Publish PowerApps: Share the app with users in the organization.
 - Grant Power Automate Access: Ensure the workflow has permissions to run
 
-  ### Analysis & Key Learnings
+### Analysis and Key Learnings
   - User Selection Challenge: Initially, requestor selection as drop down list did not work as it showed as items with no names. This was fixed using some formulas in the datacard of the combo box.
   - Email Visibility Issue: The group email received notifications initially but members were not getting individual emails. This was fixed by fetching all group members and sending individual emails via Power Automate.
 
-### Conclusion
+### [Conclusion
 This project streamlined purchase request approvals by eliminating manual processes, reducing delays, creating a cost-effective purchase request system and ensuring accountability.
 
-### ✅ Impact & Benefits
+### ✅ Impact and Benefits
 - Faster Approvals: Requests are processed in real-time using first-to-respond logic.
 - Improved Transparency: Requestors track progress via Sharepoint updates.
 - Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
- ## 🚀 Future Enhancements
+ ### 🚀 Future Enhancements
 📌 Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
 📌 Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
 📌 Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
