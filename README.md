@@ -118,9 +118,9 @@ This project streamlined purchase request approvals by eliminating manual proces
 - Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
  ### Future Enhancements
-📌 Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
-📌 Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
-📌 Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
+- Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
+- Mobile Optimization: Improve PowerApps responsiveness and UI/UX for mobile users.
+- Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
 
 ### How to Use the System
 - Step 1: Open PowerApps → Fill out the request form
