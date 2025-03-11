@@ -1,7 +1,7 @@
 ## Power Platform Purchase Request & Approval System
 
 ## Table of Contents
-1. [Overview of the Project](#overview-of-the-project)
+1 [Overview of the Project](#overview-of-the-project)
 2. [Business Problem](#business-problem)
 3. [Challenges Faced by Organizations Using Expensive ERP Systems](#challenges-faced-by-organizations-using-expensive-erp-systems)
 4. [Solution - PowerApps Based Procurement System](#solution-powerapps-based-procurement-system)
