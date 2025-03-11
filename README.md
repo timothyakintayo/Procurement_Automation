@@ -1,44 +1,36 @@
 ## Power Platform Purchase Request & Approval System
 
 ## Table of Contents
-- [Overview of the Project](#overview-of-the-project)  
-- [Business Problem](#business-problem)  
-- [Challenges Faced by Organizations Using Expensive ERP Systems](#challenges-faced-by-organizations-using-expensive-erp-systems)  
+- [Business Problem and Overview of the Project](#business-problem-and-overview-of-the-project)  
+- [Impact and Benefits](#impact-and-benefits)  
 - [PowerApps Based Procurement System as a Solution to these Challenges](#powerapps-based-procurement-system-as-a-solution-to-these-challenges)  
-- [Project Background](#project-background)  
+- [About the Project](#about-the-project)  
 - [Tools Used](#tools-used)  
 - [Skills Demonstrated](#skills-demonstrated)  
-- [About the Purchase Request App](#about-the-purchase-request-app)  
-- [Video Demo](#video-demo)  
 - [Data Structure and Storage](#data-structure-and-storage)  
 - [Key Columns Used for the Automation](#key-columns-used-for-the-automation)  
 - [Workflow Automation with PowerApps and Power Automate](#workflow-automation-with-powerapps-and-power-automate)  
-- [Key Configurations](#key-configurations)  
-- [Deployment and Usage](#deployment-and-usage)  
-- [Analysis and Key Learnings](#analysis-and-key-learnings)  
-- [Conclusion](#conclusion)  
-- [Impact and Benefits](#impact-and-benefits)  
+- [Challenges and Solutions](#challenges-and-solutions)   
 - [Future Enhancements](#future-enhancements)  
-- [How to Use the System](#how-to-use-the-system)  
+- [How to Use the System](#how-to-use-the-system)
+- [Video Demo](#video-demo)
+- [Conclusion](#conclusion)  
 
-
-### Overview of the Project
-This project demonstrates how organizations who already use Microsoft 365 can leverage on it's Power Platform offering to save cost on their use of expensive **Enterprise Resource Planning (ERP) Systems**. Using  **Powerapp, Power Automate and Sharepoint**, this project demonstrates the use of **Microsoft 365** in the development of a customizable, flexible and cost-effective ERP system. This project is a Purchase Request and Approval System built with Microsoft's Power Platform. It allows users to submit purchase requests via PowerApp, stores request dsata in sharepoint and automates approvals through Power Automate, notifying stakeholders via email and Microsoft Teams. It can be used on phone, tablet and computer. When linked with **Power BI**, a business intelligence and analytics tool, procurement trends in an organization such as monthly and yearly procurement trends, top-requested items to always make provision for them in advance, and approval vs rejection rate can be determined and analyzed easily.
+### Business Problem and Overview of the Project
+Many organizations struggle with manual purchase requests, causing delays and inefficiencies. Others use expensive ERP systems which come with high costs and limited flexibility. This project demonstrates how organizations can leverage on Microsoft Power Platform to develop customizable, flexible and cost-effective ERP system. It is a Purchase Request and Approval System built with Microsoft's Power Platform which llows users to submit purchase requests via PowerApp and get real-time response and tracking of their requests allowing for efficiency of procurement operations in any organization.
 ![welcometotheapp](https://github.com/user-attachments/assets/603abcb6-5a60-45c4-928a-389e57b9f949)
 
-### Business Problem
-Many organizations struggle with manual purchase request approvals leading to inefficiencies, delays and lack of transparency. In worst cases, are subjected to the use of expensive **ERP** systems for their procurement and operations processes. If your organization already uses Microsoft 365 then you can safe cost on SAP Ariba through the use of Power Platform functionality by designing workflows that provides the same functionality as SAP Ariba at a fraction of the cost with faster deployment and full control over the procurement workflow and can offer real-time procurement insights when linked with Power BI. This project automates the Purchase Request and Approval process using **Powerapp, Power Automate, Office 365 and Sharepoint**, to ensure seamless approval and request processing, facilitating procurement process in any the hypothetical company named XYZ. 
-
-#### Challenges Faced by Organizations Using Expensive ERP Systems
-* High cost (expensive licensing fees)
-* Limited customization
+### Impact and Benefits
+- Faster Approvals: Requests are processed in real-time using first-to-respond logic.
+- Improved Transparency: Requestors track progress via Sharepoint updates.
+- Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
 #### PowerApps Based Procurement System as a Solution to these Challenges
 * Cost-effective and easy to deploy.
 * Uses Microsoft 365 tools (PowerApps, Power Automate, and Sharepoint).
 * Automates purchase requests and approvals.
 
-### Project Background
+### About the Project
 This project is a Purchase Request & Approval System built with Microsoft's Power Platform. It is a low-cost no-code procurement system enabling organizations using Microsoft365 to seamlessly make procurements with the help of an end-to-end procurement automation for approvals and analytics of procurement operations. It enables users to submit purchase requests via the PowerApps which is available for tablet and phones, stores data in sharepoint and automates approvals using Power Automate, notifying staffs via emails and microsoft teams about requests in three categories which are:
 * Request for Laptop
 * Request for Office Supplies
@@ -61,13 +53,6 @@ In this project, i showcase my expertise in the following:
 - Sharepoint: Developed a robust data source for request tracking using Sharepoint site and list.![
 - Microsoft 365: Placed users in the organization into groups, to enable user permissions and notifications.
 - Troubleshooting & Debugging: Debugged errors in forms, email notifications and approval workflow.
-
-### About the Purchase Request App
-The application consists of a home screen which welcomes users to the app and the three categories of request listed earlier. From the home screen, users can navigate to these 3 categories, back buttons which allows you to go back to the previous request section alongside a home button to navigate to the home screen and a submit button which allows you to automatically submit your request in the application, sending the request to the stakeholders in the organization with a first to respond option enabled, making the approval system easy without waiting on a specific individual.
-
-### Video Demo
-In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
-- Demo Video [video]()
 
 ### Data Structure and Storage
 - 📂 SharePoint Lists (used as a database)
@@ -96,26 +81,9 @@ In this section, I leave you with a video tour of the app. I am hoping it intere
 - Approval/rejection is updated in sharepoint.![](sharepoint_update.png)
 - Email & Teams notifications sent to the requestor and the group.![](rejection_notification_email.png)
 
-### Key Configurations
-- Default Approval Status = "Pending"
-- Approvals receive a request via Outlook and Teams
-- Approval/Rejection is done based on First-to-Respond logic
-
-### Deployment and Usage
-- Publish PowerApps: Share the app with users in the organization.
-- Grant Power Automate Access: Ensure the workflow has permissions to run
-
-### Analysis and Key Learnings
+### Challenges and Solutions
   - User Selection Challenge: Initially, requestor selection as drop down list did not work as it showed as items with no names. This was fixed using some formulas in the datacard of the combo box.
   - Email Visibility Issue: The group email received notifications initially but members were not getting individual emails. This was fixed by fetching all group members and sending individual emails via Power Automate.
-
-### [Conclusion
-This project streamlined purchase request approvals by eliminating manual processes, reducing delays, creating a cost-effective purchase request system and ensuring accountability.
-
-### Impact and Benefits
-- Faster Approvals: Requests are processed in real-time using first-to-respond logic.
-- Improved Transparency: Requestors track progress via Sharepoint updates.
-- Scalability: This project is easily extendable to organizations who might require additional approval levels or multiple approvals as opposed to a first-to-respond logic system.
 
  ### Future Enhancements
 - Implementation of Multi-Level Approvals: Implementing a tiered approvals can be beneficial to large organizations or for high-cost procurements which might require going through different levels of approvals.
@@ -123,17 +91,17 @@ This project streamlined purchase request approvals by eliminating manual proces
 - Dashboard & Analytics: Test with several requestors, and link the request data to PowerBI dashboard to develop a real-time purchase and procurement dashboard that tracks trends in procurement and offers the organization insight into items most requested at different periods.
 
 ### How to Use the System
-- Step 1: Open PowerApps → Fill out the request form
-- Step 2: Submit the request → It saves in SharePoint
-- Step 3: Approval notification is sent via Teams & Email
-- Step 4: Approver accepts/rejects → Status updates in SharePoint
-- Step 5: Requestor receives confirmation
+- Step 1: Open PowerApps → Fill out the request form.
+- Step 2: Submit the request → It saves in SharePoint.
+- Step 3: Approval notification is sent via Teams & Email.
+- Step 4: Approver accepts/rejects → Status updates in SharePoint.
+- Step 5: Requestor receives confirmation.
+### Video Demo
+In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
+- Demo Video [video]()
 
-
-
-
-
-
+### Conclusion  
+This project eliminates manual inefficiencies in purchase approvals, reduces costs, and ensures real-time tracking. By leveraging **PowerApps, Power Automate, and SharePoint**, organizations can streamline procurement process at low-cost.
 
 
 
