@@ -69,7 +69,7 @@ The application consists of a home screen which welcomes users to the app and th
 In this section, I leave you with a video tour of the app. I am hoping it interests you, and you would sometime like to build your own application not necessarily a purchase app, it could be an event registration app, a chatbot for customer service, and lots more.
 - Demo Video [video]()
 
-### Data Structure & Storage
+### Data Structure and Storage
 - 📂 SharePoint Lists (used as a database)
 - Purchase Requests (Stores all request details made from the purchase request app)
 - Approval Status (Tracks all approval progress from pending to approved)
