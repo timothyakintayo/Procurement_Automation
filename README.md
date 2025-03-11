@@ -1,25 +1,27 @@
 ## Power Platform Purchase Request & Approval System
 
 ## Table of Contents
--[Overview of the Project](#overview-of-the-project)
--[Business Problem](#business-problem)
--[Challenges faced by organizations using expensive ERP systems:](#challenges-faced-by-organizations-using-expensive-erp-systems:)
--[Solution: PowerApps-based Procurement System:](#solution:-powerapps-based-procurement-system:)
--[Project Background](#project-background)
--[Tools Used](#tools-used)
--[Skills Demonstrated](#skills-demonstrated)
--[What does this application have?](#what-does-this-application-have?)
--[Video Demo](#video-demo)
--[Data Structure & Storage](#data-structure-&-storage)
--[Key Columns Used for the Automation](#key-columns-used-for-the-automation)
--[Workflow Automation with PowerApp and Power Automate](#workflow-automation-with-powerapp-and-power-automate)
--[Key Configurations](#key-configurations)
--[Deployment and Usage](#deployment-and-usage)
--[Analysis & Key Learnings](#analysis-&-key-learnings)
--[Conclusion](#conclusion)
--[Impact & Benefits](#impact-&-benefits)
--[Future Enhancement](#future-enhancement)
--[How to Use the System](#how-to-use-the-system)
+## Table of Contents
+1. [Overview of the Project](#overview-of-the-project)
+2. [Business Problem](#business-problem)
+3. [Challenges Faced by Organizations Using Expensive ERP Systems](#challenges-faced-by-organizations-using-expensive-erp-systems)
+4. [Solution - PowerApps-Based Procurement System](#solution---powerapps-based-procurement-system)
+5. [Project Background](#project-background)
+6. [Tools Used](#tools-used)
+7. [Skills Demonstrated](#skills-demonstrated)
+8. [What Does This Application Have?](#what-does-this-application-have)
+9. [Video Demo](#video-demo)
+10. [Data Structure & Storage](#data-structure--storage)
+11. [Key Columns Used for the Automation](#key-columns-used-for-the-automation)
+12. [Workflow Automation with PowerApps and Power Automate](#workflow-automation-with-powerapps-and-power-automate)
+13. [Key Configurations](#key-configurations)
+14. [Deployment and Usage](#deployment-and-usage)
+15. [Analysis & Key Learnings](#analysis--key-learnings)
+16. [Conclusion](#conclusion)
+17. [Impact & Benefits](#impact--benefits)
+18. [Future Enhancements](#future-enhancements)
+19. [How to Use the System](#how-to-use-the-system)
+
 
 ### 📌 Overview of the Project
 This project demonstrates how organizations who already use Microsoft 365 can leverage on it's Power Platform offering to save cost on their use of expensive **Enterprise Resource Planning (ERP) Systems**. Using  **Powerapp, Power Automate and Sharepoint**, this project demonstrates the use of **Microsoft 365** in the development of a customizable, flexible and cost-effective ERP system. This project is a Purchase Request and Approval System built with Microsoft's Power Platform. It allows users to submit purchase requests via PowerApp, stores request dsata in sharepoint and automates approvals through Power Automate, notifying stakeholders via email and Microsoft Teams. It can be used on phone, tablet and computer. When linked with **Power BI**, a business intelligence and analytics tool, procurement trends in an organization such as monthly and yearly procurement trends, top-requested items to always make provision for them in advance, and approval vs rejection rate can be determined and analyzed easily.
